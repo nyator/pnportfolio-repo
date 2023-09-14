@@ -1,0 +1,203 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 100px 350px;
+    height:  100%;
+
+    background:#04091b;
+    color: #fff;
+}
+
+/*------------ PROFILE -------------*/
+
+
+.profile{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 220px;
+
+    border-bottom: 1px solid #37466c;
+}
+
+.profile-text{
+    margin-left: 25px ;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.profile img{
+    width: 150px;
+    border-radius: 50%;
+
+    border: 2px solid #37466c;
+}
+
+.profile-text h1{
+    font-size: 40px;   
+    font-weight: 600;
+    word-spacing: 2px;
+
+    margin-bottom: -5px;
+}
+
+.sub-title1{
+    font-size: 25px;   
+    font-weight: 500;
+    color: #b7cde8;
+
+    margin-bottom: 2px;
+}
+
+.discription{
+    font-size: 17px;   
+    font-weight: 200;
+    line-height: 30px;
+
+    margin-bottom: 2px;
+}
+
+/*------------ ABOUT -------------*/
+
+.about{
+    height: 310px;
+    padding-top: 40px ;
+
+    border-bottom: 1px solid #37466c;
+}
+
+.sub-title2{
+    font-size: 25px;   
+    font-weight: 600;
+
+    margin-bottom: 30px;
+}
+
+
+/*--------------SKILLS--------------------*/
+
+
+.skills{
+    height: 280px;
+    padding-top: 40px ;
+
+    border-bottom: 1px solid #37466c;
+}
+
+/*.skills-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    
+}
+*/
+
+.skills-list{
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: repeat(5,1fr);
+ }
+
+
+.id-skills{
+    text-wrap: nowrap;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1.5px solid #37466c;
+    border-radius: 10px;
+}
+
+
+
+/*--------------PORTFOLIO--------------------*/
+
+.portfolio{
+    height: 280px;
+    padding-top: 40px ;
+
+    border-bottom: 1px solid #37466c;
+}
+
+
+
+
+
+
+/*--------------FOOTER--------------------*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text{
+    padding-top: 40px ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub-title3{
+    font-size: 25px;   
+    font-weight: 500;
+    color: #b7cde8;
+
+    margin-bottom: 10px;
+}
+
+
+
+button[type="mail"] {
+    
+    background-color: #0f55e9;
+    color: #fff;
+    border-radius: 7px;
+    width: 250px;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    transition: 0.3s;
+  }
+  
+  button:hover{
+    background-color: #0c3da5;
+  }
+
+.arrow-img{
+    width: 20px;
+}
+
+.socials{
+    display: flex;
+    margin-top: 70px;
+    gap: 40px;
+}
+
+.social-ele,a{
+    display: flex;
+    text-decoration: none;
+}
+
+.socials p{
+    color: #b7cde8;
+}
+
+.socials p:hover{
+    text-decoration: underline;
+}
